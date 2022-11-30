@@ -1,6 +1,5 @@
-#! /bin/bash
-javac diffie.java
-java diffie $1 $2
+package diffie;
+
 
 import java.math.*;
 import java.nio.charset.StandardCharsets;
@@ -28,7 +27,6 @@ public class diffie {
 		BigInteger g = new BigInteger("2",16);
 		
 		//Primzahlformel in BigDec
-		
 		
 		BigDecimal basis = new BigDecimal("2.0");
 		
